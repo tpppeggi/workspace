@@ -5,7 +5,6 @@ import java.util.Scanner;
 public class VendingMachine {
 
 	public static void main(String[] args) {
-//		System.out.print("請投入金額");
 		Scanner s = new Scanner(System.in);
 		String n = s.nextLine();
 		Coins coin = new Coins();
